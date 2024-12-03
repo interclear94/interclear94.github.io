@@ -13,9 +13,9 @@
       <h1><a href="#">PSC's Portfolio</a></h1>
       <nav>
         <ul>
-          <li><a href="section2">About Me</a></li>
-          <li><a href="section3">Skill</a></li>
-          <li><a href="section4">Project</a></li>
+          <li><a href="#section2">About Me</a></li>
+          <li><a href="#section3">Skill</a></li>
+          <li><a href="#section4">Project</a></li>
         </ul>
       </nav>
     </div>
@@ -24,8 +24,8 @@
     <div class="section1_wrap">
       <div class="section1_text">
         <h2>
-          끊임 없는 노력으로 FrontEnd 보다<br>
-          Front'And'를 꿈꾸는 개발자
+          끊임 없는 노력으로 <span class="english">FrontEnd</span> 보다<br>
+        <span class="english">Front'And'</span>를 꿈꾸는 개발자
         </h2>
         <p>
           안녕하세요. 어제보다 더 나은<br>
@@ -38,10 +38,10 @@
     </div>
   </section>
   <section id="section2">
-    <h2>About Me</h2>
+    <h2 class="english">About Me</h2>
     <div class="section2_content">
       <div class="section2_profile">
-        <img src="" alt="">
+        <img src="./img/profile.png" alt="">
       </div>
       <ol>
         <li>
@@ -58,61 +58,130 @@
         </li>
         <li>
           <img src="./img/github.png" alt="">&nbsp;&nbsp;
-          <span>Github</span>&nbsp;:&nbsp;<span>박상철</span>
+          <span>Github</span>&nbsp;:&nbsp;<span>https://github.com/interclear94</span>
         </li>
       </ol>
     </div>
   </section>
   <section id="section3">
-    <h2>Skill</h2>
+    <h2 class="english">Skill</h2>
     <div class="section3_wrap">
       <ul>
         <li>
           <div class="skill_img">
             <img src="./img/html5.svg" alt="">
           </div>
-          <div>
-            <p>블록/인라인의 개념을 이해하여 적절한 태그를 사용</p>
-          </div>
-        </li>
-        <!-- <li>
-          <div>
-            <img src="" alt="">
-          </div>
-          <div>
+          <div class="skill_desc">
             <p>블록/인라인의 개념을 이해하여 적절한 태그를 사용</p>
           </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="">
+          <div class="skill_img">
+            <img src="./img/css.png" alt="">
           </div>
-          <div>
-            <p>블록/인라인의 개념을 이해하여 적절한 태그를 사용</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p>블록/인라인의 개념을 이해하여 적절한 태그를 사용</p>
+          <div class="skill_desc">
+            <p>블록/인라인의 개념을 바탕으로 하여 원하는 레이아웃 구성 가능</p>
           </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="">
+          <div class="skill_img">
+            <img src="./img/js.png" alt="">
           </div>
-          <div>
-            <p>블록/인라인의 개념을 이해하여 적절한 태그를 사용</p>
+          <div class="skill_desc">
+            <p>ES6 문법</p>
+            <p>Promise then/catch, ES6 async/await 을 사용하여 비동기 처리 가능</p>
           </div>
-        </li> -->
+        </li>
+        <li>
+          <div class="skill_img">
+            <img src="./img/ts.png" alt="">
+          </div>
+          <div class="skill_desc">
+            <p>타입을 지정하여 데이터 검증을 할 수 있음</p>
+          </div>
+        </li>
+        <li>
+          <div class="skill_img">
+            <img src="./img/react.png" alt="">
+          </div>
+          <div class="skill_desc">
+            <p>함수형 컴포넌트를 사용하였으며 useEffect로 리액트 생명주기의 이해</p>
+            <p>React-Query의 infiniteQuery 사용으로 비동기 데이터 호출</p>
+            <p>customHook을 이용하여 무한스크롤 조건문 작성</p>
+          </div>
+        </li>
+        <li>
+          <div class="skill_img">
+            <img src="./img/nextjs.png" alt="">
+          </div>
+          <div class="skill_desc">
+            <p>레이아웃 컴포넌트와 라우팅처리를 효율적으로 구현 가능</p>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
-  <!-- <section id="section4"></section> -->
-  <!-- <footer id="fotter">
-    © 2024. Park Sang Cheol. All rights reserved.
-  </footer> -->
+  <section id="section4">
+    <h2 class="english">Project</h2>
+    <ul class="project_ul">
+      <li>
+        <div class="project_img">
+          <img src="./img/uphill.png" alt="">
+        </div>
+        <div class="project_desc">
+          <h3><span class="english">UpHiLL</span> (등산앱)</h3>
+          <p class="duration">2024.09 ~ 2024.10</p>
+          <div class="role">
+            <h4>맡은 역할 (FrontEnd)</h4>
+            <p>- 관리자 아바타/상품 페이지 제작</p>
+            <p>- 유저의 아바타/상품 페이지 제작</p>
+            <p>- React-Query 에서 제공하는 infiniteQuery를 이용하여 비동기 데이터 처리 및 무한스크롤 기능 구현</p>
+          </div>
+          <a href="https://github.com/interclear94/UPHiLLProjectFront"><span></span>&nbsp;https://github.com/interclear94/UPHiLLProjectFront</a>
+          <p class="stack">
+            React, NextJS, NestJS, Sequelize, AWS, Docker, JWT, Jotai, Axios
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="project_img">
+          <img src="./img/kita.png" alt="">
+        </div>
+        <div class="project_desc">
+          <h3><span class="english">KiTA</span> (경일학원 학생을 위한 SNS 사이트)</h3>
+          <p class="duration">2024.07 ~ 2024.08</p>
+          <div class="role">
+            <h4>맡은 역할 (FrontEnd / BackEnd)</h4>
+            <p>- 관리자의 고객 문의 게시글 작성 및 페이지네이션</p>
+            <p>- 고객문의 게시글을 확인할 수 있는 유저 페이지</p>
+          </div>
+          <a href="https://github.com/interclear94/project-frontend"><span></span>&nbsp;https://github.com/interclear94/project-frontend</a>
+          <p class="stack">
+            HTML, CSS, JavaScript, MySQL, NestJS, Node.JS, Sequelize
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="project_img">
+          <img src="./img/donut.png" alt="">
+        </div>
+        <div class="project_desc">
+          <h3 class="english">Donut Shop</h3>
+          <p class="duration">2024.05 ~ 2024.05 (2주)</p>
+          <div class="role">
+            <p>- 메인페이지 제작 (슬라이드 배너 구현, 애니메이션 제작, 스크롤 플로팅)</p>
+            <p>- 마이페이지 유저 정보 수정</p>
+          </div>
+          <a href="https://github.com/interclear94/sonpa"><span></span>&nbsp;https://github.com/interclear94/sonpa</a>
+          <p class="stack">
+            HTML, CSS, JavaScript
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer id="footer" class="english">
+    &copy; 2024. Park Sang Cheol. All rights reserved.
+  </footer>
 </body>
 </html>
