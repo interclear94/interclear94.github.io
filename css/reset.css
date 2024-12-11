@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
